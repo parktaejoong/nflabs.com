@@ -2477,6 +2477,10 @@ section#projectDescription {
     outline:none;
 }
 
+.footerWidget h4 {
+    font-weight: bold;
+}
+
 .navbar-nav>li {
     float:none;
     display:inline-block;
@@ -2506,7 +2510,7 @@ h2.subTitle.h2nobg:after {
     border:none;
 }
 .navbar-default .navbar-toggle {
-    margin-top: 22px;
+    margin-top: 12px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -2547,7 +2551,7 @@ h2.subTitle.h2nobg:after {
 }
 .boxFeature{margin-bottom:33px;}
 /* v2 */
-.boxFeature-2 {text-align: center;}
+.boxFeature-2 {text-align: center; margin-bottom:50px;}
 .boxFeature-2 i {margin-bottom: 22px; display:block;}
 .boxFeature-2 p {font-size: 12px;}
 
@@ -2581,18 +2585,94 @@ h2.subTitle.h2nobg:after {
     padding-top:0
 }
 
-@media(max-width:767px){}
+@media(max-width:767px){
+    .container {
+        padding-bottom: 0px;
+    }
+
+    .resourcescontainer {
+        margin-bottom:40px;
+    }
+
+    .endofsection {
+        padding-bottom: 50px;
+    }
+
+    .footerWidget img {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    #mainFooter {
+        text-align: center;
+    }
+
+    .socialNetwork {
+        float: none !important;
+    }
+
+    .customers img {
+        margin: 0 auto;
+    }
+
+    .customers {
+        margin-bottom: 20px;
+    }
+}
 
 @media(min-width:768px){
     .isotopeItem .iconBig{
         font-size: 33px;
     }
+
+    .clients .row {
+        height: 80px;
+    }
+
+    .customers .imgcontainer {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .customers img {
+        padding: 0;
+        max-height: 80px;
+        margin: 0 auto;
+    }
+
+    .customers {
+        height: 100%;
+        line-height: 80px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footerWidget img {
+        width: 300px;
+    }
+
+    .footerWidget {
+        float: none !important;
+        text-align: center;
+    }
+
+    .footerWidget ul {
+        float: none !important;
+    }
+
     .isotopeItem .iconBig.iconRounded{
         width: 80px;
         height: 80px;
         padding-top: 18px;
     }
     .isotopeItem .iconLinks a span{font-size:10px;}
+    #customers {
+        padding-bottom: 50px !important;
+    }
+    .boxFeature-2 h1 {
+        font-size: 26px;
+    }
 }
 
 @media(min-width:992px){
@@ -2605,6 +2685,15 @@ h2.subTitle.h2nobg:after {
         padding-top: 28px;
     }
     .isotopeItem .iconLinks a span{font-size:12px;}
+    .boxFeature-2 h1 {
+        font-size: 32px;
+    }
+}
+
+@media(min-width:1400px){
+    .boxFeature-2 h1 {
+        font-size: 40px;
+    }
 }
 
 @media(min-width:1200px){}
@@ -3035,7 +3124,13 @@ body#fullScreen #mainHeader{display:none;}
     display:table;
 }
 
-#homeFullScreen .maskParent {display:table;}
+#homeFullScreen .maskParent {display:table; width: 100%;padding: 0;display: table;height: 100%;position: absolute;top: 0;left: 0;margin: 0;}
+
+#homeFullScreen .paralaxMask {padding: 0;vertical-align: middle;display: table-cell;margin: 0;}
+
+.homepageIE {
+    margin-top:30px;
+}
 
 #fullScreenSliderWrapper{
     display:table-cell;

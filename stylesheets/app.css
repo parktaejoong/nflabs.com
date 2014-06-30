@@ -1500,7 +1500,7 @@ h1, h2, h3, h4, h5, h6 {
     color:#222;
 }
 h2 {
-    color:#888;	
+    color:#888;
 }
 h2 i {color:#999}
 h2.subTitle:after, h1.noSubtitle:after{
@@ -1762,7 +1762,7 @@ section#projectDescription {
 
 /*** Feature box **/
 
-.boxFeature i{color:#4FAFC2;} 
+.boxFeature i{color:#4FAFC2;}
 
 /*** slices ***/
 .slice{
@@ -3415,10 +3415,11 @@ ul.socialNetwork li {display:inline-block; list-style-type: none;}
     font-weight: 400;
     display: block;
     padding: 22px;
+    line-height: 28px;
     margin-bottom: 0;
 }
 .pricingBloc h3 span {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     margin: 11px 0 0 0;
     display: block;
@@ -3468,7 +3469,9 @@ p.credits {
 
 @media(min-width:1200px){}
 
-
+.subTitle.h2nobg {
+    line-height: 27px !important;
+}
 .panel-default>.panel-heading {background:#3E6D92; }
 .panel-default>.panel-heading:hover {background:#fff; }
 .panel-default>.panel-heading:hover a {color:#3E6D92; }
@@ -3488,7 +3491,7 @@ h1, h2, h3, h4, h5, h6 {
     color:#222;
 }
 h2 {
-    color:#888;	
+    color:#888;
 }
 h2 i {color:#999}
 h2.subTitle:after, h1.noSubtitle:after{
@@ -3498,11 +3501,52 @@ h2.subTitle:after, h1.noSubtitle:after{
 .paralaxText blockquote:before, .paralaxText blockquote:after {
     color:#fff;
 }
+
+.pricingBloc div.responsabilities ul {
+    background-color: white;
+}
+
+.pricingBloc div.responsabilities ul li {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-botton: 12px;
+}
+
+.pricingBloc div.requirements ul li {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-botton: 12px;
+}
+
+.pricingBloc div.requirements ul {
+    background-color: white;
+}
+
+.responsabilities h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    background-color: #333;
+    color: white;
+    font-weight: 400;
+}
+
+.requirements {
+    background-color: #eee;
+}
+
+.requirements h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    background-color: #333;
+    color: white;
+    font-weight: 400;
+}
+
 #home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
     background-color:#3E6D92;
 }
 #home {
-    background-image:url('../images/theme-pics/paralax-blue-3.jpg');
+    background-image: url('../images/theme-pics/paralax-blue-3.jpg');
 }
 #paralaxSlice1 {
     background-image: url('../images/theme-pics/paralax-1.jpg');
@@ -3517,8 +3561,12 @@ h2.subTitle:after, h1.noSubtitle:after{
     background-image: url('../images/theme-pics/paralax-4.jpg');
 }
 #paralaxSlice5 {
-    background-image:  url('../images/dataflow2.png');
+    background-image: url('../images/dataflow2.png');
 }
+#paralaxSlice6 {
+    background-image: url('../images/seoulLandscape.jpg');
+}
+
 .paralaxText blockquote, .paralaxText h1, .paralaxText h2, .paralaxText h3, .paralaxText p, .paralaxText i{
     color:#fff;
 }
@@ -3739,7 +3787,7 @@ label.error {color:#fff;
 
 #projectQuote, #projectQuote h3{background:#ddd;color:#444;}
 
-.boxFeature i{color:#3E6D92;} 
+.boxFeature i{color:#3E6D92;}
 
 .slice{
     background-color:#fff;

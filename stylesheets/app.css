@@ -3009,7 +3009,7 @@ hr {
     position: relative;
 
 }
-.paralaxMask {width:100%; height:100%;overflow:hidden;position:absolute;background:rgba(0,0,0,0.15);}
+.paralaxMask {width:100%; height:100%;overflow:hidden;position:absolute;background:rgba(0,0,0,0.4);}
 .paralaxMask2 {width:100%; height:100%;overflow:hidden;position:absolute;background:rgba(0,0,0,0.5);}
 
 @media(max-width:767px){}
@@ -3118,7 +3118,7 @@ body#fullScreen #mainHeader{display:none;}
 #mapWrapper{ height:350px; }
 
 #homeFullScreen {
-    background-image: url('../images/seoul_main.jpg');
+    background-image: url('../images/seoulLandscape.jpg');
     /*background-image: url('../images/theme-pics/paralax-1.jpg');*/
     height:100%;
     display:table;
